@@ -1,0 +1,5 @@
+# Day04
+
+V prvem delu program zgolj prešteje zvitke, ki so dostopni takoj na začetku. Algoritem pregleda vsako celico v tabeli in s pomočjo funkcije preveri njenih osem sosedov. Če ima zvitek manj kot štiri sosede, ga viličar lahko doseže, zato ga program prišteje k rezultatu. V tem delu se mreža ne spreminja, ampak ostane takšna, kot je bila na vhodu. Celoten postopek se zaključi po enem samem prehodu čez vse vrstice in stolpce.
+
+V drugem delu program simulira postopno čiščenje skladišča, kjer se dostopni zvitki odstranjujejo. Program v zanki išče vse zvitke z manj kot štirimi sosedi in si zabeleži njihove lokacije. Ko pregleda celotno mrežo, vse najdene zvitke hkrati izbriše in na njihovo mesto postavi prazno polje (.). S tem se sprosti prostor, zato v naslednjem koraku postanejo dostopni novi zvitki, ki so bili prej ujeti v sredini. Ta postopek se ponavlja v več krogih, dokler viličarji ne morejo odstraniti nobene nove plasti. Na koncu program izpiše skupno število vseh zvitkov, ki so bili v tem procesu odstranjeni.

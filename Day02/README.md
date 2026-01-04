@@ -1,0 +1,5 @@
+# Day02
+
+Program obdeluje tekstovno datoteko z razponi števil in išče vzorce znotraj njih. Prvi del logike se osredotoča na prepoznavanje identifikatorjev, ki so sestavljeni iz dveh popolnoma enakih polovic. Program preveri, ali je dolžina števila soda, ga razpolovi in primerja oba dela kot niza znakov. Če se polovici ujemata, se vrednost takšnega števila prišteje k prvi skupni vsoti.
+
+V drugem delu program išče poljubno dolge ponavljajoče se podnize znotraj posameznega identifikatorja. Algoritem preverja dolžine vzorcev, ki so deljive z dolžino števila, in primerja začetni segment z vsemi naslednjimi deli niza. Če se celotno število brez ostanka sestavi iz zaporednega ponavljanja istega segmenta, se njegova vrednost prišteje k drugi vsoti. Postopek se prekine takoj, ko je potrjen prvi delujoč vzorec, kar poveča učinkovitost obdelave.

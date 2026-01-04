@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Ime projekta
+project(Day02)
+
+# Nastavitev C++ standarda (stoll zahteva C++11)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Ustvari izvršljivo datoteko
+add_executable(Day02 main.cpp)
+
+# Kopiranje vhodne datoteke v build mapo
+configure_file(input.txt ${CMAKE_CURRENT_BINARY_DIR}/input.txt COPYONLY)
